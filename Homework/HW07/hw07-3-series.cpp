@@ -19,16 +19,16 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int n ;
     
-    printf("Enter number: ");
+    printf("Enter number: ") ;
     scanf("%d", &n);
     
-    long long int sum = 0;
-    long long int term = 0;
+    int sum = 0 ;
+    int term = 0 ;
     int i = 0;
 
-    printf("Series = ");
+    printf("Series = ") ;
     do 
     {
         term = term * 10 + 9 ;
